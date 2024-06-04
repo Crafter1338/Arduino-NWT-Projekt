@@ -191,7 +191,7 @@ void test_main(){
     TonD += (float) test_ton();
   }
   TonD /= 10;
-  GesamtD += TonD*0.9; //Ton wird etwas weniger stark gewertet, um es in relation mit dem Licht zu setzen
+  GesamtD += TonD*0.9;  //Ton wird etwas weniger stark gewertet, um es in relation mit dem Licht zu setzen
   delay(1000);
 
   for (int i = 1; i <= 10; i++){
